@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048E070D2DB8059E00A3994D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 048E070C2DB8059E00A3994D /* .gitignore */; };
 		049F47A92DB7F2AA008C0B0F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 049F47A82DB7F2AA008C0B0F /* README.md */; };
 		049F48652DB7F544008C0B0F /* search-filter-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 049F48612DB7F544008C0B0F /* search-filter-dark.png */; };
 		049F48662DB7F544008C0B0F /* sous-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 049F48622DB7F544008C0B0F /* sous-logo.png */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048E070C2DB8059E00A3994D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		049F477E2DB7F28E008C0B0F /* Sous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049F478B2DB7F28F008C0B0F /* SousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049F47952DB7F28F008C0B0F /* SousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 		049F47752DB7F28E008C0B0F = {
 			isa = PBXGroup;
 			children = (
+				048E070C2DB8059E00A3994D /* .gitignore */,
 				049F47A82DB7F2AA008C0B0F /* README.md */,
 				049F48642DB7F544008C0B0F /* Assets */,
 				049F47802DB7F28E008C0B0F /* Sous */,
@@ -266,6 +269,7 @@
 				049F486C2DB7F544008C0B0F /* search-filter.png in Resources */,
 				049F486D2DB7F544008C0B0F /* recipe-detail-dark.png in Resources */,
 				049F486E2DB7F544008C0B0F /* search.png in Resources */,
+				048E070D2DB8059E00A3994D /* .gitignore in Resources */,
 				049F47A92DB7F2AA008C0B0F /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

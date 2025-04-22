@@ -195,6 +195,8 @@ class RecipeService {
       "Fetching description for '\(recipeName, privacy: .public)' from network: \(url.absoluteString)"
     )
     do {
+      // Apple's URLSession on the simulator has a known issue with TLS versions.
+      // https://developer.apple.com/forums/thread/777999
       let (data, response) = try await self.urlSession.data(from: url)
       try validateHTTPResponse(
         response,

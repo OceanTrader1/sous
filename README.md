@@ -33,25 +33,35 @@ _'Sous' is an interactive recipe app that allows customers to find recipes from 
 
 ![recipes](./Assets/demo.gif)
 
-![recipes](./Assets/recipe.png)
-
-### Recipe Details
-
-![recipe detail](./Assets/recipe-detail.png)
-
-![recipe detail dark](./Assets/recipe-detail-dark.png)
-
-### Recipe Search
-
-![recipe search](./Assets/search.png)
-
-![recipe search filter](./Assets/search-filter.png)
-
-![recipe search filter dark](./Assets/search-filter-dark.png)
-
-### Error Handling
-
-![error](./Assets/error.png)
+<table>
+  <tr>
+    <td width="33%">
+      <img src="./Assets/recipe.png" alt="recipe" height="450px" />
+    </td>
+    <td width="33%">
+      <img src="./Assets/recipe-detail.png" alt="recipe detail" height="450px" />
+    </td>
+    <td width="33%">
+      <img src="./Assets/recipe-detail-dark.png" alt="recipe detail dark mode" height="450px" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <img src="./Assets/search.png" alt="search" height="450px" />
+    </td>
+    <td width="33%">
+      <img src="./Assets/search-filter.png" alt="search filter" height="450px" />
+    </td>
+    <td width="33%">
+      <img src="./Assets/search-filter-dark.png" alt="search filter dark mode" height="450px" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <img src="./Assets/error.png" alt="error" height="450px" />
+    </td>
+  </tr>
+</table>
 
 ## Impact Prioritization/Focus Areas 
 
